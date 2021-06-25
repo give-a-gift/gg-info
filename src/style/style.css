@@ -7,6 +7,10 @@ body {
   flex-direction: column;
 }
 
+h1 {
+  font-size: 150%;
+}
+
 h1.main {
   font-weight: normal;
   text-align: center;
@@ -72,6 +76,7 @@ div.column-left {
 }
 
 div.column-right {
+  margin-left: min(16em, 4%);
   width: 40%;
   display: flex;
 }
@@ -203,6 +208,7 @@ div.contact-content {
 }
 
 .close-button {
+  font-family: "Quicksand", sans-serif;
   color: #ffffff;
   background-color: #52638d;
   border: none;
