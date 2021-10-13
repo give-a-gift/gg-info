@@ -57,6 +57,13 @@ img.line {
   width: 55vw;
 }
 
+/* same as line */
+img.instragram {
+  max-height: 10vh;
+  max-width: 39vh;
+  width: 55vw;
+}
+
 p.white-center {
   text-align: center;
   color: #ffffff;
@@ -87,6 +94,10 @@ div.column-right {
 
 div.contact-content {
   margin-bottom: 4vh;
+}
+
+div.contact-content-padding {
+  margin: 2vh;
 }
 
 #header-desktop {
