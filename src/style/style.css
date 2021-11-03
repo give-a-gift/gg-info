@@ -64,6 +64,20 @@ img.instragram {
   width: 55vw;
 }
 
+/* same as line */
+img.twitter {
+  max-height: 10vh;
+  max-width: 39vh;
+  width: 55vw;
+}
+
+/* same as line */
+img.facebook {
+  max-height: 10vh;
+  max-width: 39vh;
+  width: 55vw;
+}
+
 p.white-center {
   text-align: center;
   color: #ffffff;
@@ -96,8 +110,12 @@ div.contact-content {
   margin-bottom: 4vh;
 }
 
-div.contact-content-padding {
-  margin: 2vh;
+div.contact-follow-padding {
+  margin: 4vh;
+}
+
+div.content-padding {
+  margin: 1vh;
 }
 
 #header-desktop {
@@ -143,6 +161,10 @@ div.contact-content-padding {
   z-index: -1;
   left: 50%;
   transform: translate(-50%, -90%);
+}
+
+.circle-content-space {
+  margin: 2vh;
 }
 
 .content {
