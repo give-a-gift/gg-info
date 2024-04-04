@@ -258,3 +258,14 @@ div.content-padding {
 .close-button:focus {
   cursor: pointer;
 }
+
+.maintain-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.maintain-text {
+  color: #ffffff;
+  text-align: center;
+  font-size: 0.8em;
+}
